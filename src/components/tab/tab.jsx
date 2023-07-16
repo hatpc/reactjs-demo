@@ -7,8 +7,8 @@ const Tab = () => {
 
     return (
         <>
-            <div className='formart-content'>
-                <ul className="nav nav-pills mb-3 text-center" id="pills-tab" role="tablist">
+            <div className='format-content container'>
+                <ul className="nav nav-pills mb-3 text-center w-100" id="pills-tab" role="tablist">
                     <button onClick={
                             () => setActiveTab('History')
                         }
@@ -78,10 +78,13 @@ const Tab = () => {
                         Method
                     </button>
                 </ul>
-                <div className="tab-btn-" id="pills-tabbtn-">
+                <div className="tab-btn" id="pills-tab">
                     <div className={
-                            `tab-pane fade ${
+                            `tab-pane fade  ${
                                 activeTab === 'History' && 'show active'
+                            } 
+                            ${
+                                activeTab !== 'History' && 'd-none'
                             }`
                         }
                         id="pills-History"
@@ -92,6 +95,9 @@ const Tab = () => {
                     <div className={
                             `tab-pane fade ${
                                 activeTab === 'Approach' && 'show active'
+                            }
+                            ${
+                                activeTab !== 'Approach' && 'd-none'
                             }`
                         }
                         id="pills-Approach"
@@ -102,6 +108,9 @@ const Tab = () => {
                     <div className={
                             `tab-pane fade ${
                                 activeTab === 'Culture' && 'show active'
+                            }
+                                ${
+                                activeTab !== 'Culture' && 'd-none'
                             }`
                         }
                         id="pills-Culture"

@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.group-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.products {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; */
+/* } */
+
+.nav-pills {
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+ 
+ 
+} 
