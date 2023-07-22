@@ -1,0 +1,51 @@
+.my-player {
+    width: 700px;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 12px 10px gray;
+    align-items: center;
+}
+
+.avt-img {
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+}
+.name-music {
+    color: blue;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 18px;  
+}
+.top1 {
+    color: blue;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.music-times {
+    color: grey;
+    font-size: 15px;
+}
+.music-Real {
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(155, 148, 148)
+}
+.iconform {
+    color: rgb(224, 221, 221) !important;
+    justify-content: center;
+}
+.iconform .active {
+    color: red;
+}
+
+.top1 {
+    margin-right: 15px;
+}
