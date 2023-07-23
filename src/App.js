@@ -50,15 +50,15 @@ function App() {
                 <Tab/>
             </div>   */}
 
-             {/* <div>
+             <div>
                 <Accorddions/>
-             </div> */}
+             </div> 
             
             {/* <div>
                 <Footer/>
             </div>   */}
       
-              <AudioPlayer/> 
+              {/* <AudioPlayer/>  */}
          {/* <div>
                 <Form/>
 
