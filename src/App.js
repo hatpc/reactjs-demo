@@ -11,19 +11,23 @@ import Accorddions from './components/accorddions/accorddions';
 import AudioPlayer from './components/audioplayer/index';
 // import Form from './components/form/form';
 // import Index from './components/form/index';
+import LikeButton from './components/LikeButton/LikeButton';
+
 
 import {
     faHome,
     faHouse,
     faGhost,
     faPlay,
-    faHeart
+    faHeart,
+    faApple
 } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function App() {
-    return (<div className="App">
-        {/* <Header/>
+    return (
+        <div className="App">
+            {/* <Header/>
             <div className='group-item'>
                 <CartItem title="Thang dap trai1" descriptions="em iu dep gai1"/>
                 <CartItem title="Thang dap trai2" descriptions="ut xinh "/>
@@ -50,16 +54,16 @@ function App() {
                 <Tab/>
             </div>   */}
 
-             <div>
+            {/* <div>
                 <Accorddions/>
-             </div> 
-            
+             </div>  */}
+
             {/* <div>
                 <Footer/>
             </div>   */}
-      
-              {/* <AudioPlayer/>  */}
-         {/* <div>
+
+            {/* <AudioPlayer/>  */}
+            {/* <div>
                 <Form/>
 
             </div> */}
@@ -67,9 +71,14 @@ function App() {
             {/* <div>
                 <Index/>
             </div>  */}
-            </div> 
+            <div>
+                <LikeButton/>
+               
+            </div>
+
+        </div>
     );
-    }
-    
-    
-    export default App;
+}
+
+
+export default App;

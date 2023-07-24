@@ -1,0 +1,25 @@
+.buttonlike {
+    width : 230px;
+    height : 50px;
+    border-radius : 20px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin-left : 35px;
+    border: none;
+    background-color :black;
+    color: aliceblue;
+}
+.content {
+    color: aliceblue;
+     padding-top: 20px;
+}
+
+.count {
+    font-weight: 600;
+}
+
+.buttonlike:active  {
+    
+}
+
