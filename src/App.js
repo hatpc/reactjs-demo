@@ -5,14 +5,16 @@ import './App.css';
 // import Button from './components/button/button';
 // import Homework from './components/homework/homework';
 // import Tab from './components/tab/tab';
-import Accorddions from './components/accorddions/accorddions';
+// import Accorddions from './components/accorddions/accorddions';
 // import Player from './components/audioplayer/player';
 // import Audio from './components/audioplayer/audio';
 import AudioPlayer from './components/audioplayer/index';
 // import Form from './components/form/form';
 // import Index from './components/form/index';
-import LikeButton from './components/LikeButton/LikeButton';
-
+import Buttonlike from './components/Buttonlike/Buttonlike';
+// import SwiperSlider from './components/myswiper/swiper';
+// import Demo from './components/demo/demo';
+import Navigation from './components/NavigationReact/Navigation';
 
 import {
     faHome,
@@ -71,10 +73,17 @@ function App() {
             {/* <div>
                 <Index/>
             </div>  */}
-            <div>
-                <LikeButton/>
-               
+              {/* <div>
+                <Buttonlike/>
+            </div>   */}
+            {/* <div className='container'>
+                 <SwiperSlider />
             </div>
+              */}
+              {/* <Demo/> */}
+              <div>
+                <Navigation/>
+            </div>  
 
         </div>
     );
